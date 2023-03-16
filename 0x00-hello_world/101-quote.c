@@ -2,10 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - prints out and that piece of art is useful
+ * main - prints out and that piece of art is useful,
  * - Dora Korpar, 2015-10-19",
- * new line
- * Return: 
+ * Return: (0)
  */
 int main(void)
 {
