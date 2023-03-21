@@ -2,21 +2,22 @@
 
 /**
  * print_alphabet_x10 - Entry point
- * Description: program prints alphabet 10 times without stdlib
- * Return: 0
+ * Description: The program prints the alphabet 10 times
+ * without using the std library
+ *
+ * Return: Alway 0 (success)
  */
 
 void print_alphabet_x10(void)
 {
-	int i;
-	char j;
+	int i, j;
 
-	for (i = 0 ; i <= 9 ; i++)
+	for (j = 0; j < 10; j++)
 	{
-		for (j = 'a' ; j <= 'z' ; j++)
+		for (i = 'a' ; i <= 'z' ; i++)
 		{
-		_putchar(i);
+			_putchar(i);
 		}
-	       _putchar('\n');
+		_putchar('\n');
 	}
 }
